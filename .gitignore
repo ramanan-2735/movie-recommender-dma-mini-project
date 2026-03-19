@@ -1,0 +1,18 @@
+# Environments
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# ML models and large data files (Ignore because GitHub has a 100MB limit)
+# Note: model.py will recreate dummy ones if missing!
+*.csv
+*.pkl
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
